@@ -66,27 +66,27 @@ The application allows users to choose between different artistic styles:
 
 ### Realistic
 
-![Realistic](src/assets/Real.png)
+![Realistic](vue-frontend/src/assets/Real.png)
 
 ### Anime
 
-![Anime](src/assets/Anime.png)
+![Anime](vue-frontend/src/assets/Anime.png)
 
 ### Manga
 
-![Manga](src/assets/Manga.png)
+![Manga](vue-frontend/src/assets/Manga.png)
 
 ### Oil Painting
 
-![Oil Painting](src/assets/OilPaint.jpg)
+![Oil Painting](vue-frontend/src/assets/OilPaint.jpg)
 
 ### Pop Art
 
-![Pop Art](src/assets/PopArt.jpg)
+![Pop Art](vue-frontend/src/assets/PopArt.jpg)
 
 ### Watercolor
 
-![Watercolor](src/assets/WaterColor.jpg)
+![Watercolor](vue-frontend/src/assets/WaterColor.jpg)
 
 ---
 
@@ -137,7 +137,7 @@ npm run dev
 
 The initial entry point of the application introducing the main features and guiding users into the workflow.
 
-![Home Page](src/assets/screenshots/home.png)
+![Home Page](vue-frontend/src/assets/screenshots/home.png)
 
 ---
 
@@ -145,7 +145,7 @@ The initial entry point of the application introducing the main features and gui
 
 Provides information about the application, its purpose, and how it works.
 
-![About Page](src/assets/screenshots/about.png)
+![About Page](vue-frontend/src/assets/screenshots/about.png)
 
 ---
 
@@ -153,7 +153,7 @@ Provides information about the application, its purpose, and how it works.
 
 Initial state of the upload interface before a portrait image is selected.
 
-![Upload Page Empty](src/assets/screenshots/upload_empty.png)
+![Upload Page Empty](vue-frontend/src/assets/screenshots/upload_empty.png)
 
 ---
 
@@ -161,26 +161,22 @@ Initial state of the upload interface before a portrait image is selected.
 
 State of the upload interface after a portrait image has been uploaded.
 
-![Upload Page With Image](src/assets/screenshots/upload_with_image.png)
+![Upload Page With Image](vue-frontend/src/assets/screenshots/upload_with_image.png)
 
 ### Example Transformation (Before / After)
 
 Example showing the transformation process within the application.
 
 **Before**
-![Before](src/assets/before.png)
+![Before](vue-frontend/src/assets/before.png)
 
 **After**
-![After](src/assets/after.png)
+![After](vue-frontend/src/assets/after.png)
 
 ## 📌 Note
 
-This repository contains only the frontend implementation of the project.
-The image generation and AI processing were handled by a separate Python backend running on a university server and are not included here.
-The backend is required for full functionality and is not included in this repository.
-A local or university-hosted Flask backend is needed for image generation.
-```
+This repository contains only the frontend implementation of the AI Portrait Generator.
 
-```
+The image generation and AI processing are handled by a separate Python backend running on a university server and are not included here.
 
-```
+A backend service is required for full functionality. You will need a local or university-hosted Flask backend to generate the portraits.
