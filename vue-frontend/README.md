@@ -118,6 +118,8 @@ vue-frontend/
 │   └── main.js
 ├── package.json
 └── vite.config.js
+```
+
 ---
 
 ## Live Demo
